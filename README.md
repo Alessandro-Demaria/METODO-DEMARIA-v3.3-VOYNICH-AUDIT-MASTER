@@ -1,80 +1,78 @@
-# METODO DEMARIA® Release v3.2 (Audit-Master)
-### Computational Analysis and Vector Topology of the Voynich Manuscript (Beinecke MS 408)
+# METODO DEMARIA® Release v3.3 (Audit-Master Unificato)
+### Quantitative Audit & Vector Topology of the Voynich Manuscript (Beinecke MS 408)
 
 [![Validation Suite - Metodo Demaria](https://github.com/Alessandro-Demaria/METODO-DEMARIA-v3.3-VOYNICH-AUDIT-MASTER/actions/workflows/validate.yml/badge.svg)](https://github.com/Alessandro-Demaria/METODO-DEMARIA-v3.3-VOYNICH-AUDIT-MASTER/actions/workflows/validate.yml)
 
-**Autore, Responsabile Scientifico e Inventore Unico**: Avv. Alessandro Demaria (Molochio, RC)[cite: 7]  
-**Concept DOI Madre (Archivio Permanente)**: [10.5281/zenodo.22789343](https://doi.org/10.5281/zenodo.22789343)[cite: 7]  
-**DOI Ufficiale Release v3.2 (Audit-Master)**: [10.5281/zenodo.23199718](https://doi.org/10.5281/zenodo.23199718)[cite: 7]  
-**DOI Trattato Voynich-Summa**: [10.5281/zenodo.22999135](https://doi.org/10.5281/zenodo.22999135)[cite: 7]  
-**Licenza del Trattato e dei Dati**: Creative Commons Attribution 4.0 International (CC BY 4.0)[cite: 7]  
+**Autore, Responsabile Scientifico e Inventore Unico**: Avv. Alessandro Demaria (Molochio, RC)  
+**Concept DOI Madre (Archivio Permanente)**: [10.5281/zenodo.22789343](https://doi.org/10.5281/zenodo.22789343)[cite: 9]  
+**DOI Ufficiale Release v3.3 (Audit-Master)**: [10.5281/zenodo.23242996](https://doi.org/10.5281/zenodo.23242996)  
+**Licenza del Trattato e dei Dati**: Creative Commons Attribution 4.0 International (CC BY 4.0)[cite: 9]  
 **Licenza Codebase Pubblica**: MIT License  
-**Privativa Industriale e Segreto Algoritmico**: Art. 98 D.Lgs. 30/2005 (Codice della Proprieta Industriale)[cite: 17]  
-**Marchio Registrato e Metodologia**: METODO DEMARIA®[cite: 7]  
-**Contatti Ufficiali**: metodo.demaria@gmail.com | avv.alessandrodemaria@pec.it[cite: 7]  
+**Privativa Industriale e Segreto Algoritmico**: Art. 98 D.Lgs. 30/2005 (Codice della Proprietà Industriale)[cite: 19]  
+**Marchio Registrato e Metodologia**: METODO DEMARIA®[cite: 9]  
+**Contatti Ufficiali**: metodo.demaria@gmail.com | avv.alessandrodemaria@pec.it[cite: 9]  
 
 ---
 
 ## 1. PREMESSA EPISTEMOLOGICA E CAMBIO DI PARADIGMA
 
-La presente Release v3.2 (Audit-Master) del METODO DEMARIA® formalizza e consolida il cambio di paradigma epistemologico nello studio dei corpora simbolici storici non decifrati, con specifico riferimento al Manoscritto Voynich (Beinecke MS 408)[cite: 8].
+La presente Release v3.3 (Audit-Master Unificato) del METODO DEMARIA® formalizza e consolida il cambio di paradigma epistemologico nello studio dei corpora simbolici storici non decifrati, con specifico riferimento al Manoscritto Voynich (Beinecke MS 408)[cite: 10].
 
-Rigettando l'ipotesi linguistico-fonetica tradizionale (Symbol-to-Sound / Symbol-to-Meaning), il METODO DEMARIA® formalizza il modello vettoriale e cibernetico (Symbol-to-Vector / Symbol-to-State): il corpus grafico costituisce un Instruction Set deterministico e calcolabile, concepito per la regolazione e il monitoraggio di uno spazio degli stati all'interno di un sistema temporizzato ad anello chiuso (Closed-Loop Timed Automaton)[cite: 8].
-
----
-
-## 2. RECAP BENCHMARK EMPIRICI FROZEN (RELEASE v3.2)
-
-- **Corpus Analizzato**: 35.483 EVA tokens validati su 227 folii unici[cite: 7, 8].
-- **Coerenza Sintattica Grezza Reale Osservata (Craw)**: 0.685281 (68.53%)[cite: 7, 8].
-- **Model 1 (Global Null Model - Monte Carlo N=10.000)**: Mean C_null = 0.676538, Z-Score = +4.3541, p-value < 0.000001[cite: 8, 15].
-- **Model 2 (Intra-Folio Null Model - Monte Carlo N=10.000)**: Mean C_null = 0.682928, Z-Score = +1.1882, p-value = 0.123400[cite: 8, 15].
-- **Model 3 (Intra-Line Null Model / Smoking Gun - Monte Carlo N=10.000)**: Mean C_null = 0.676567, Z-Score = +4.3958, p-value < 0.000001 (Vincolo Sintattico di Rigo)[cite: 7, 8, 15].
-- **Isomorphic Double Randomization Test**: Double Null Mean = 0.711419, Z-Score = -0.7961, Empirical p-value = 0.664300[cite: 7, 8, 16].
-- **Stress Test di Sensibilita al Rumore Sintattico**: 94.85% di ritenzione del segnale al 10.0% di rumore sintattico inoculato (Craw' = 0.650001)[cite: 7, 8, 16].
-- **Holdout Stability (Out-of-Sample)**: Delta C inferiore al 2.59%[cite: 16].
+Rigettando l'ipotesi linguistico-fonetica tradizionale (Symbol-to-Sound / Symbol-to-Meaning), il METODO DEMARIA® formalizza il modello vettoriale e cibernetico (Symbol-to-Vector / Symbol-to-State): il corpus grafico costituisce un Instruction Set deterministico e calcolabile, concepito per la regolazione e il monitoraggio di uno spazio degli stati all'interno di un sistema temporizzato ad anello chiuso (Closed-Loop Timed Automaton)[cite: 10].
 
 ---
 
-## 3. STRUTTURA DEL REPOSITORY DI LABORATORIO (FILE FROZEN & HASH SHA-256)
+## 2. RECAP BENCHMARK EMPIRICI FROZEN (RELEASE v3.3)
+
+- **Corpus Analizzato**: 35.483 EVA tokens validati su 227 folii unici[cite: 17].
+- **Coerenza Sintattica Grezza Reale Osservata (Craw)**: 0.786597 (78.66%).
+- **Model 1 (Global Null Model - Monte Carlo N=10.000)**: Z-Score = +19.8404, p-value < 10^-15.
+- **Model 2 (Intra-Folio Null Model - Monte Carlo N=10.000)**: Z-Score = +16.3961, p-value < 10^-15.
+- **Model 3 (Intra-Line Null Model / Smoking Gun - Monte Carlo N=10.000)**: Z-Score = +14.5202, p-value < 10^-15 (Prova Regina).
+- **Isomorphic Double Randomization Test**: Double Null Z-Score = +1.5239, p-value = 0.032000 (p < 0.05).
+- **Stress Test di Sensibilità al Rumore Sintattico**: 97.35% di ritenzione del segnale al 10.0% di rumore sintattico inoculato (Craw' = 0.765738).
+- **Holdout Stability (Out-of-Sample)**: Delta C inferiore al 2.59% (In-Sample +0.58%, Out-of-Sample -0.58%)[cite: 18].
+
+---
+
+## 3. STRUTTURA DEL REPOSITORY DI LABORATORIO (13 FILE FROZEN)
 
 ### Codebase Python Vettorizzata Pure-Array (7 Moduli Integrati)
-1. `core_parser1.py`: Parser deterministico dell'alfabeto EVA e mappatura biunivoca sulle regole della quadrupla degli stati minimi (Alpha: 10.00%, Beta: 54.99%, Delta: 19.51%, Gamma: 15.50%)[cite: 14].
-2. `core_matrix2.py`: Gestore C-native della Matrice Canonica 4x4 e calcolo della Coerenza Sintattica Grezza (Craw = 0.685281) su coordinata di rigo pergamenaceo[cite: 7, 14].
-3. `utils_preflight3.py`: Checker d'integrita crittografica SHA-256 e verifica di immutabilita del dataset master[cite: 15].
-4. `audit_nullmodels4.py`: Motore stocastico Monte Carlo per l'audit dei tre modelli nulli gerarchici (N=10.000, Seed 42)[cite: 8, 15].
-5. `audit_doublerand5.py`: Test avversariale di doppia randomizzazione isomorfa (N=10.000, Seed 42)[cite: 8, 16].
-6. `audit_robustness6.py`: Test di sensibilita e resilienza al rumore sintattico inoculato (0.0% -> 30.0%)[cite: 8, 16].
-7. `batch_runner7.py`: Orchestratore Master unificato per la riesecuzione automatica dell'intera suite e l'esportazione dei report[cite: 15].
+1. `core_parser1.py`: Parser deterministico dell'alfabeto EVA e mappatura biunivoca sulle regole della quadrupla degli stati minimi (Alpha: 10.00%, Beta: 54.99%, Delta: 19.51%, Gamma: 15.50%)[cite: 16].
+2. `core_matrix2.py`: Gestore C-native della Matrice Canonica 4x4 e calcolo della Coerenza Sintattica Grezza (Craw = 0.786597) su coordinata di rigo pergamenaceo[cite: 16, 17].
+3. `utils_preflight3.py`: Checker d'integrità crittografica SHA-256 e verifica di immutabilità del dataset master (`dec87e784290ad5b404bd5ed0110349a2f379c7fb386adb0bca2d7a4b1890999`)[cite: 20].
+4. `audit_nullmodels4.py`: Motore stocastico Monte Carlo per l'audit dei tre modelli nulli gerarchici (N=10.000, Seed 42)[cite: 17].
+5. `audit_doublerand5.py`: Test avversariale di doppia randomizzazione isomorfa (N=10.000, Seed 42)[cite: 18].
+6. `audit_robustness6.py`: Test di sensibilità e resilienza al rumore sintattico inoculato (0.0% -> 30.0%)[cite: 18].
+7. `batch_runner7.py`: Orchestratore Master unificato per la riesecuzione automatica dell'intera suite e l'esportazione dei report[cite: 17].
 
-### Dataset, Report e Impronte Crittografiche SHA-256
-- `METODO_DEMARIA_VOYNICH_AUDIT_MASTER_v3.2_SIGILLATO.zip`: `adc04fdfbaeaef650877b8b9f84e1e486c730599e8a6abffa903979f7f0dc06e`[cite: 7, 18]
-- `voynich_eva_tokens_extended.csv`: `dec87e784290ad5b404bd5ed0110349a2f379c7fb386adb0bca2d7a4b1890999`[cite: 7, 18]
-- `audit_master_summary_results.csv`: `e3e4020ac6fe93cca79cfa393b773061d0b5f06c0f3c0c96d96f06efca1c2ca0`[cite: 18]
-- `robustness_test_results.csv`: `d96a6ca9efe82a7cdbd5386dfe5627af728e6a5c6ba6b2c4de825d647b504812`[cite: 18]
+### Dataset e Report di Audit (3 File CSV)
+- `voynich_eva_tokens_extended.csv`: Dataset Master di 35.483 EVA tokens (Hash SHA-256: `dec87e784290ad5b404bd5ed0110349a2f379c7fb386adb0bca2d7a4b1890999`)[cite: 17, 20].
+- `audit_master_summary_results.csv`: Report sintetico congelato contenente i benchmark della Release v3.3[cite: 20].
+- `robustness_test_results.csv`: Report analitico dei livelli di ritenzione della coerenza al rumore[cite: 20].
 
-### Apparato Iconografico Scientifico
-- `METODO DEMARIA Release v3.2 - Tavola 1`: Automa Temporizzato ad Anello Chiuso, Matrice Canonica 4x4 ed Equazione dell'Invariante di Armonia.
-- `METODO DEMARIA Release v3.2 - Tavola 2`: Topologia di Rigo Pergamenaceo e Tripartizione Sintattica (Smoking Gun)[cite: 13, 15].
-- `METODO DEMARIA Release v3.2 - Tavola 3`: Diagnostica Computazionale, Z-Score dei Modelli Nulli e Curva di Resilienza al Rumore[cite: 15, 16].
+### Apparato Iconografico Scientifico (3 Tavole .png / .jpg a 300 DPI)
+- `METODO DEMARIA Release v3.3 - Tavola 1 - Automa Temporizzato ad Anello Chiuso e Matrice 4.4 - Equazione Armonia.jpg`: Automa Temporizzato ad Anello Chiuso, Matrice Canonica 4x4 ed Equazione dell'Invariante di Armonia[cite: 16].
+- `METODO DEMARIA Release v3.3 - Tavola 2 - Tipologia Rigo Pergamenaceo e Tripartizione Sintattica.png`: Topologia di Rigo Pergamenaceo e Tripartizione Sintattica (Smoking Gun)[cite: 15].
+- `METODO DEMARIA Release v3.3 - Tavola 3 - Diagnostica Computazionale e Benchmarking degli Audit Stocastici.png`: Diagnostica Computazionale, Z-Score dei Modelli Nulli e Curva di Resilienza al Rumore[cite: 17, 18].
 
 ---
 
 ## 4. ESECUZIONE RAPIDA (QUICK START)
 
-Per rieseguire l'intero audit e verificare in modo deterministico la baseline di laboratorio (Seed 42)[cite: 15]:
+Per rieseguire l'intero audit e verificare in modo deterministico la baseline di laboratorio (Seed 42)[cite: 17]:
 
 ```bash
-# Esecuzione dell'Orchestratore Master v3.2
+# Esecuzione dell'Orchestratore Master
 python batch_runner7.py
 ```
 
 ---
 
-## 5. NOTE LEGALI, PATERNITA E SEGRETO INDUSTRIALE (ART. 98 CPI)
+## 5. NOTE LEGALI, PATERNITÀ E SEGRETO INDUSTRIALE (ART. 98 CPI)
 
-1. **Diritto d'Autore (L. 633/1941)**: La struttura teorica del METODO DEMARIA®, i trattati scientifici, i dataset quantitativi, la codebase di laboratorio, il design del dispositivo analogico Volvelle e la formalizzazione dell'Invariante di Armonia costituiscono opera d'ingegno originale tutelata ai sensi della Legge 22 aprile 1941 n. 633 e delle Convenzioni Internazionali WIPO / Berna[cite: 17].
-2. **Marchio Registrato (D.Lgs. 30/2005)**: La denominazione, il logo e la metodologia METODO DEMARIA® costituiscono marchio registrato ai sensi del D.Lgs. 10 febbraio 2005, n. 30 (Codice della Proprieta Industriale)[cite: 17].
-3. **Segreto Industriale (Art. 98 CPI)**: Gli algoritmi di simulazione avanzata, i motori commerciali backend, le matrici proprietarie dell'Invariante di Armonia (Phi_alpha) e la struttura analitica del motore di calcolo C* **rimangono coperti da Segreto Industriale ed esclusiva proprieta dell'Autore Avv. Alessandro Demaria (Art. 98 D.Lgs. 30/2005 - CPI)**[cite: 17]. La messa a disposizione della presente suite risponde ai requisiti di trasparenza Open Science e riproducibilita popperiana, senza concedere alcuna licenza d'uso o di sfruttamento commerciale sulla codebase proprietaria e sul motore sottostante[cite: 17].
+1. **Diritto d'Autore (L. 633/1941)**: La struttura teorica del METODO DEMARIA®, i trattati scientifici, i dataset quantitativi, la codebase di laboratorio, il design del dispositivo analogico Volvelle e la formalizzazione dell'Invariante di Armonia costituiscono opera d'ingegno originale tutelata ai sensi della Legge 22 aprile 1941 n. 633 e delle Convenzioni Internazionali WIPO / Berna[cite: 19, 20].
+2. **Marchio Registrato (D.Lgs. 30/2005)**: La denominazione, il logo e la metodologia METODO DEMARIA® costituiscono marchio registrato ai sensi del D.Lgs. 10 febbraio 2005, n. 30 (Codice della Proprietà Industriale)[cite: 19].
+3. **Segreto Industriale (Art. 98 CPI)**: Gli algoritmi di simulazione avanzata, i motori commerciali backend, le matrici proprietarie dell'Invariante di Armonia (Phi_alpha) e la struttura analitica del motore di calcolo C* **rimangono coperti da Segreto Industriale ed esclusiva proprietà dell'Autore Avv. Alessandro Demaria (Art. 98 D.Lgs. 30/2005 - CPI)**[cite: 19]. La messa a disposizione della presente suite risponde ai requisiti di trasparenza Open Science e riproducibilità popperiana, senza concedere alcuna licenza d'uso o di sfruttamento commerciale sulla codebase proprietaria e sul motore sottostante[cite: 19].
 
-© METODO DEMARIA DEPOSITATO - Tutti i diritti riservati (L. 633/1941, D.Lgs. 30/2005, Art. 98 CPI)[cite: 17].
+© METODO DEMARIA DEPOSITATO - Tutti i diritti riservati (L. 633/1941, D.Lgs. 30/2005, Art. 98 CPI)[cite: 19, 21].
